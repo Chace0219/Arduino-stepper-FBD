@@ -13,6 +13,18 @@ Each stage is to a predetermined count stop. At each stop, the LED goes ON and, 
 
 The final stage returns the parts carriage to 0 to repeat the sequence.
 
+Status transition and control logic is implemented using FBD and FSM pattern. 
+
+# Stages
+- Stage 1: 0 to 2” travel (motor count = 600;)
+- Stage 2: 2” to 24” travel (motor count = 7200;)
+- Stage 3: 24” to 48” travel (motor count = 14488;)
+- Stage 4: 48” to 72” travel (motor count = 21600;)
+- Stage 5: 72” to 94” travel (motor count = 28288;)
+- Stage 6: 94” to 0” travel (motor count = 0;) Return to 0
+
+They can be added easily and configured. 
+
 # Parts
 - Arduino Uno
 - Stepper Motor, NEMA23, 425oz/in, 1.4A/Series
