@@ -12,3 +12,15 @@ here are 6 sequential stages for a 200 step (1.8°) motor with GT2 belt and 20-t
 Each stage is to a predetermined count stop. At each stop, the LED goes ON and, the motor, and if necessary, a mechanical clamp, securely holds the part in position. After stage work is complete, the hold clamp is released, the momentary switch is pressed, the LED goes OFF and the work moves to the next stage stop. 
 
 The final stage returns the parts carriage to 0 to repeat the sequence.
+
+# Parts
+- Arduino Uno
+- Stepper Motor, NEMA23, 425oz/in, 1.4A/Series
+- Motor Driver H-Bridge, L298N
+- Push Button Momentary Switch, Remote
+- LED, Remote
+- Optical Linear Encoder, Dual Photo Interrupter, 300 LPI, 630-HEDS-9731-252
+- Encoder Film, 300 LPI
+- Belt, GT2
+- Pulley, 20-Tooth
+
